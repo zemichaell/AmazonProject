@@ -1,0 +1,21 @@
+.footer__component {
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.footer__text {
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.footer__button {
+  background-color: #f8b305;
+  font-size: 20px;
+  width: 240px;
+  border: #f0c14b solid;
+  border-radius: 4px;
+}
+.footer__new_customer {
+  padding-bottom: 10px;
+}

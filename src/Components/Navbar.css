@@ -1,0 +1,31 @@
+.nav__bar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.line {
+  size: 22px;
+}
+.nav__bar ul {
+  /* width: 100%; */
+  display: flex;
+  background-color: #232f3e;
+  color: white;
+  height: 30px;
+  padding-top: 10px;
+  list-style-type: none;
+}
+.nav__bar ul li {
+  text-decoration: none;
+  padding-inline-start: 30px;
+  font-size: 18px;
+  font-family: "Amazon Ember", sans-serif;
+  margin-bottom: 20px;
+  color: #ffff;
+}
+.nav__bar ul a {
+  text-decoration: none;
+}
+.nav__bar ul a:hover {
+  border-radius: 2px;
+}
