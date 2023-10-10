@@ -19,6 +19,7 @@ function Checkout() {
         <h2 className="checktout__title">Your shopping Basket</h2>
         {basket.map((item) => (
           <CheckoutProduct
+            key={item.id} // Add a unique key prop
             id={item.id}
             title={item.title}
             image={item.image}

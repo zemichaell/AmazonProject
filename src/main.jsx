@@ -16,10 +16,10 @@ import reducer, { initialState } from "./Components/reducer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <React.StrictMode>
-      <StateProvider reducer={reducer} initialState={initialState}>
-        <App />
-      </StateProvider>
-    </React.StrictMode>
+    {/* <React.StrictMode> */}
+    <StateProvider reducer={reducer} initialState={initialState}>
+      <App />
+    </StateProvider>
+    {/* </React.StrictMode> */}
   </BrowserRouter>
 );
