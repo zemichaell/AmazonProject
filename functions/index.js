@@ -5,7 +5,6 @@ const cors = require("cors");
 const stripe = require("stripe")(process.env.SECRET_KEY);
 //App config
 const app = express();
-
 //middleware
 app.use(cors({ origin: true }));
 app.use(express.json());
